@@ -1,0 +1,30 @@
+"game operational" {
+  "attract mode" {
+    "title screen" => "high scores": timeout;
+    "high scores" => "title screen": timeout;
+  },
+  "game on" {
+    "missile (many)" {
+      m_moving [label="moving"], m_gone [label="gone"];
+      "m_moving" => "m_gone" : collision;
+    },
+    "boulder (many)" {
+      a_appearing [label="appearing"],
+      a_moving [label="moving"],
+      a_exploding [label="exploding"],
+      a_gone [label="gone"];
+      "a_appearing" => "a_moving": timeout;
+      "a_moving" => "a_exploding": collision;
+      "a_exploding" => "a_gone": timeout;
+    };
+    "get ready" => "playing" : timeout;
+    "playing" => "player exploding" : collision / lives -=1;
+    "player exploding" => "get ready" : timeout [lives>0];
+    "player exploding" => "game over" : timeout [lives=0];
+  },
+  "game over";
+  initial            => "title screen";
+  "attract mode" => "get ready" : start game [credits>0] / credits-=1, lives=3;
+  "game over" => "title screen" : timeout;
+};
+"game operational" => "game operational": insert coin / credits+=1;
