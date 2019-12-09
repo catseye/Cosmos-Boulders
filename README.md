@@ -99,16 +99,16 @@ to a Redux store; subscribes to the store to update the video display.
 Further reading
 ---------------
 
-*   A couple of years ago I was motivated to finally write down my
+*   A couple of years ago (2017) I was motivated to finally write down my
     formulation of [A Basic Theory of Video Games][], which I had been
     thinking about on-and-off for many years beforehand.
-*   Earlier this year I tried to refine the ideas there into a more
+*   Earlier this year (2019) I tried to refine the ideas there into a more
     formal model that I called [Nested Modal Transducers][].
-*   Many years previous to these, James Hague wrote a series of articles about
-    [Purely Functional Retrogames][], which touches on a few of the
+*   Many years previous to these (2008), James Hague wrote a series of articles
+    about [Purely Functional Retrogames][], which touches on a few of the
     same issues.
-*   John Earnest's [Deep: A Postmortem][] also touches on a few of the same
-    issues.
+*   John Earnest's [Deep: A Postmortem][] (2011), also touches on a few of the
+    same issues.
 
 [immutable data]: https://facebook.github.io/immutable-js/
 [reducers]: https://redux.js.org/basics/reducers
