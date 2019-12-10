@@ -15,7 +15,7 @@ The main goals are to demonstrate:
 
 *   that nested state machines are a good way to describe video games structurally.
 *   that reducers are an acceptable way to implement nested extended state machines.
-*   that a simple but full-featured arcade game can be described in a few hundred
+*   that a simple but full-featured arcade game can be written in a few hundred
     lines of (JavaScript) code.
 
 I say reducers are "acceptable" because I think [Nested Modal Transducers][]
@@ -47,7 +47,7 @@ The code starts with some **utility functions**.  These should be fairly
 self-explanatory.  Some of them are designed to work with objects and actions
 inside reducers.
 
-There is then a sequence of sections, one for eeach of the following objects:
+There is then a sequence of sections, one for each of the following objects:
 **Player, Missile, Boulder, Game**.  Each section contains
 
 *   (optionally) a "reset" function that takes an object and returns a version
