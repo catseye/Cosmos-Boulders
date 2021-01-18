@@ -1,9 +1,11 @@
 Cosmos Boulders
 ===============
 
-![Screenshot of Cosmos Boulders](images/cosmos-boulders-screenshot.png?raw=true)
+_Play it online_ [@ catseye.tc](https://catseye.tc/installation/Cosmos_Boulders)
+| _See also:_ [Bubble Escape](https://github.com/catseye/Bubble-Escape#readme)
+∘ [Nested Modal Transducers][]
 
-_Play it online [here](https://catseye.tc/installation/Cosmos_Boulders)._
+![Screenshot of Cosmos Boulders](images/cosmos-boulders-screenshot.png?raw=true)
 
 An arcade-style HTML5 minigame built with [immutable data][] and [reducers][] in
 ES5 JavaScript.
