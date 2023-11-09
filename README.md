@@ -2,7 +2,7 @@ Cosmos Boulders
 ===============
 
 _Play it online_ [@ catseye.tc](https://catseye.tc/installation/Cosmos_Boulders)
-| _See also:_ [Bubble Escape](https://github.com/catseye/Bubble-Escape#readme)
+| _See also:_ [Bubble Escape](https://codeberg.org/catseye/Bubble-Escape#bubble-escape)
 ∘ [Nested Modal Transducers][]
 
 ![Screenshot of Cosmos Boulders](images/cosmos-boulders-screenshot.png?raw=true)
@@ -116,7 +116,7 @@ Further reading
 [reducers]: https://redux.js.org/basics/reducers
 [Immutable.js]: https://facebook.github.io/immutable-js/
 [Redux.js]: https://redux.js.org/
-[Nested Modal Transducers]: https://github.com/catseye/Nested-Modal-Transducers/
+[Nested Modal Transducers]: https://codeberg.org/catseye/The-Dossier/src/branch/master/article/Nested-Modal-Transducers/README.md
 [A Basic Theory of Video Games]: http://catseye.tc/view/The-Dossier/article/A%20Basic%20Theory%20of%20Video%20Games.md
 [Purely Functional Retrogames]: https://prog21.dadgum.com/23.html
 [Deep: A Postmortem]: https://github.com/JohnEarnest/Mako/blob/97b9796ff5c9f9ba0221ccbf5207cea4567d8daf/docs/postmortem-Deep.md
